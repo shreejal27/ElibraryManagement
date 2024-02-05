@@ -85,6 +85,7 @@
     <Content Include="bootstrap\css\bootstrap.rtl.min.css" />
     <Content Include="bootstrap\js\bootstrap.bundle.min.js" />
     <Content Include="bootstrap\js\popper.min.js" />
+    <Content Include="css\customstylesheet.css" />
     <Content Include="datatable\css\jquery.dataTables.min.css" />
     <Content Include="datatable\js\jquery.dataTables.min.js" />
     <Content Include="fontawesome\css\all.css" />
