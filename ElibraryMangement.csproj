@@ -71,6 +71,7 @@
     <Content Include="adminauthormanagement.aspx" />
     <Content Include="adminbookissuing.aspx" />
     <Content Include="adminlogin.aspx" />
+    <Content Include="adminmembermanagement.aspx" />
     <Content Include="adminpublishermanagement.aspx" />
     <Content Include="bootstrap\css\bootstrap-grid.css" />
     <Content Include="bootstrap\css\bootstrap-grid.min.css" />
@@ -2201,6 +2202,13 @@
     </Compile>
     <Compile Include="adminlogin.aspx.designer.cs">
       <DependentUpon>adminlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminmembermanagement.aspx.cs">
+      <DependentUpon>adminmembermanagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminmembermanagement.aspx.designer.cs">
+      <DependentUpon>adminmembermanagement.aspx</DependentUpon>
     </Compile>
     <Compile Include="adminpublishermanagement.aspx.cs">
       <DependentUpon>adminpublishermanagement.aspx</DependentUpon>
