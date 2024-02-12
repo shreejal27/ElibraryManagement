@@ -13,5 +13,10 @@ namespace ElibraryMangement
         {
 
         }
+
+        protected void signupBtnClick(object sender, EventArgs e)
+        {
+            Response.Write("<script> alert('Testing');</script>");
+        }
     }
 }
