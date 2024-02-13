@@ -38,7 +38,7 @@
                             <div class="col-md-6">
                                 <label>Date of Birth</label>
                                 <div class="form-group">
-                                    <asp:TextBox CssClass="form-control" ID="TextBox2" runat="server" placeholder="Password" TextMode="Date"></asp:TextBox>
+                                    <asp:TextBox CssClass="form-control" ID="TextBox2" runat="server" placeholder="DOB" TextMode="Date"></asp:TextBox>
                                 </div>
                             </div>
                         </div>
@@ -121,7 +121,7 @@
                         <div class="row">
                             <div class="col">
                                 <div class="form-group">
-                                        <asp:Button class="btn btn-success btn-block btn-lg" runat="server" Text="Sign Up" OnClick="signupBtnClick"/>
+                                        <asp:Button class="btn btn-success btn-block btn-lg" runat="server" Text="Sign Up" OnClick="SignupBtnClick"/>
                                 </div>
 
                             </div>
