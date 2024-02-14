@@ -41,13 +41,13 @@
                                      <div class="col">
                                        <label> Password</label>
                                           <div class="form-group">
-                                              <asp:TextBox CssClass="form-control" ID="TextBox2" runat="server" placeholder="Password" TextMode="Url"></asp:TextBox> 
+                                              <asp:TextBox CssClass="form-control" ID="TextBox2" runat="server" placeholder="Password"></asp:TextBox> 
                                           </div>
                                      </div>
                                 </div>
 
                              <div class="form-group">
-                                 <asp:Button ID="Button1" class="btn btn-success btn-block btn-lg" runat="server" Text="Login" />
+                                 <asp:Button ID="Button1" class="btn btn-success btn-block btn-lg" runat="server" Text="Login" OnClick="LoginBtnClick"/>
                              </div>
 
                                  <div class="form-group">
