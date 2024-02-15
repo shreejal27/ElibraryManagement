@@ -17,7 +17,7 @@ namespace ElibraryMangement
         //user login
         protected void LoginBtnClick(object sender, EventArgs e)
         {
-             //Response.Write("<script> alert('Button Clicked');</script>");
+            Response.Write("<script> alert('Button Clicked');</script>");
 
         }
     }
